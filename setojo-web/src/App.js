@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import WebcamComponent from './Components/Webcam';
+import OjoBot from './Components/OjoBot';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +8,18 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          
+            <OjoBot/>
+              <h2>Welcome to SetOjo</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          ~  Computer vision to enhance your online experience  ~
         </p>
+        <WebcamComponent/>
+        <div className="button-container">
+          <button> Start Calibrating</button>
+          <button>End Calibration</button>
+        </div>
       </div>
     );
   }

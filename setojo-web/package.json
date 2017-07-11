@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-user-media": "^0.1.8",
+    "react-webcam": "^0.2.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.10"
