@@ -6,7 +6,9 @@ class WebcamComponent extends Component {
 	return(
 		<div>
 		
-		<Webcam />
+		<Webcam 
+			audio={false}
+		/>
 
 		</div>
 			);
