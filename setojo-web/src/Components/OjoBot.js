@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Ojo.png'; // Tell Webpack this JS file uses this image
+import logo from '../Ojo-quarter.png'; // Tell Webpack this JS file uses this image
 
 
 

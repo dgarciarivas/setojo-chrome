@@ -7,10 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-        <div className="App-header">
-            <OjoBot/>
-              <h2>Welcome to SetOjo</h2>
+         <div className="App-header">
+           <div className='Logo'>
+              <OjoBot/>
+              <h>SetOjo</h>
+             </div>
         </div>
         <p className="App-intro">
           ~  Computer vision to enhance your online experience  ~
